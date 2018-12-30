@@ -1,0 +1,73 @@
+*  {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+}
+
+h2{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+div{
+   
+    border: 1px solid black;
+    background: #999999;
+    margin: 10px;
+    padding-left: 15px;
+    width: 30%;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.dish{
+    float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 150px;
+}
+.a{
+    background: #D59898;
+}
+
+.b{
+    background: #C14543;
+}
+
+.c{
+    background: #E5D198;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .menu{
+        width: 45%;
+    }
+    .sushi{
+        width: 93%;
+    }
+}
+
+@media (max-width: 767px){
+    .menu{
+        width: 100%;
+    }
+    .sushi{
+        width: 100%;
+    }
+    
+    div {
+        max-width: 90%;
+}
+    
+}
